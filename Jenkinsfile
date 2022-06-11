@@ -20,7 +20,7 @@ pipeline {
 
     stage('finished') {
       steps {
-        sh 'sh \'echo "done"\''
+        sh 'echo "done"'
       }
     }
 
